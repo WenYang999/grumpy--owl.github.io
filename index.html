@@ -1,11 +1,116 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
     <title>兇兇貓頭鷹 GRUMPY OWL</title>
-  </head>
-  <body>
-    <h1>Hello World!!</h1>
-    <p>please work!!!</p>
-  </body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        }
+    .logo a{
+        background-image: url("images/GrumpyOwl_logo.png");
+        background-size: 60px;
+        background-repeat: no-repeat;
+        display: inline-block;
+        text-indent: -999999px;
+        width: 60px;
+        height: 60px;
+        }
+     nav {
+         background-color: ffff;
+         padding: 0px;
+         display: flex;
+         flex-direction: row;
+     }
+     nav a {
+         text-decoration:none;
+         font-size: 18px;
+         color: #F12EA3;
+     }
+     nav a:hover{
+         color: black;
+     }
+     ul{
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        display: inline;
+        list-style-type: none;
+        margin: 0px;
+        font-size: 10px;
+    }
+    .navgation {
+        margin: 10px;
+        position: relative;
+        top: 20px;
+    }
+    .navgation.studioname a {
+        color: #0F1A35;
+        font-size: 24px;
+        position: relative;
+        left: -15px;
+    }
+    header{
+        background: linear-gradient(185.55deg, #FF005C 9.78%, #FF005C 9.78%, #306AFF 84.04%);
+        padding: 200px;
+    }
+    header h1{
+        color: white;
+        text-align: center;
+        font-size: 72px;
+        font-family: Microsoft JhengHei;
+    }
+    header h2{
+        color: white;
+        text-align: center;
+        font-size: 36px;
+        font-family: Microsoft JhengHei;
+    }
+    
+    footer{
+        padding: 100px;
+        background: #0F1A35;
+    }
+    section.body{
+        padding: 200px;
+    }
+    .body.showcase{
+        background: linear-gradient(180deg, #FFFFFF 89.58%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FF7474 0%, #FFFCB0 100%);
+    }
+
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><a href="index.html">Grumpy Owl Studio Logo</a></li>
+            <li class="navgation studioname"><a href="index.html">Grumpy Owl</a></li>
+            <li class="navgation"><a href="calpal.html">Cal Pal</a></li>
+            <li class="navgation"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>致力於創造有趣且順暢的體驗</h1>
+        <h2>We are focus on creating fun and smooth experiences for everyone.</h2>
+    </header>
+    <section class="body showcase">
+        <div>hero</div>
+
+    </section>
+    <section class="body about">
+        
+        <div>about-us</div>
+
+    </section>
+
+
+    <footer>footer</footer>
+</body>
 </html>
