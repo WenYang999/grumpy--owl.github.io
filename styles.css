@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+.logo a{
+    background-image: url("images/GrumpyOwl_logo.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -999999px;
+    width: 60px;
+    height: 60px;
+    }
+ nav {
+     background-color: ffff;
+     padding: 0px;
+     display: flex;
+     flex-direction: row;
+ }
+ nav a {
+     text-decoration:none;
+     font-size: 18px;
+     color: #F12EA3;
+ }
+ nav a:hover{
+     color: black;
+ }
+.navgation {
+    margin: 5px;
+    position: relative;
+    top: 20px;
+}
+.navgation.studioname a {
+    color: #0F1A35;
+    font-size: 24px;
+    position: relative;
+    left: -15px;
+}
+
+footer{
+    padding: 100px;
+    background: #0F1A35;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    list-style-type: none;
+    margin: 0px;
+    font-size: 10px;
+    display: inline;
+    margin: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: #F12EA3;
+}
+.Studio-Logo {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    display: block;
+}
+.BottomTxt{
+    color: white;
+    text-align: center;
+    font-size: 8px;
+}
